@@ -1,0 +1,57 @@
+
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    margin: 20px;
+}
+
+/* Grouping selector */
+h1, h2, p {
+    font-family: Arial, sans-serif;
+}
+
+/* Element selector */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Conflicting rules: cascade and specificity */
+h2 {
+    color: green;
+}
+
+.card h2 {
+    color: purple;
+}
+
+/* Class selector */
+.card {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+/* ID selector */
+#about {
+    background-color: #dbeafe;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+}
